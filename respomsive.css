@@ -8,6 +8,12 @@
    .carousel-caption p{
     width: 60%;  
 }
+.card{
+    margin-bottom: 100%;
+}
+.img-area{
+    width: 100%;
+}
 
 }
 
@@ -29,5 +35,17 @@
     line-height: 1.6;
     font-size: 12px;
 }
-
+.button-media {
+    /* d-grid gap-2 d-md-flex justify-content-md-end */
+    display: grid;
+    gap: 2px;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-text{
+    padding-top: 50px;
+}
+.card{
+    margin-bottom: 30px;
+}
 }
